@@ -1,0 +1,32 @@
+
+.flexy{
+    display: flex;
+    align-items: center;    justify-content: center;
+    height: 100%;
+    width:100%;
+    background-color: aliceblue;
+}
+.forms{
+    height: 50%;  
+    width: 50%;
+    background-color: aqua;
+
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .font{
+      font-size: 20px;
+  }
+  button{
+      padding: 10px 20px;
+      margin-left: 40%;
+  }
