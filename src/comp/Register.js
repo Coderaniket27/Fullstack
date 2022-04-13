@@ -47,12 +47,13 @@ const Register = () => {
           
           <input type ="text"name="email" />
           </label>
-          <label className='font'>Phone-number
+          <label className='font'>PhoneNumber
           
           
           <input type ="text"name="phone" onChange={ (e) => {setphone(e.target.value)}} />
           </label>
           <label className='font'>Password
+
           
           
           <input type ="text" name="password"  onChange={ (e) => {setpassword(e.target.value)}}/>
