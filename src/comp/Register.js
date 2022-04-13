@@ -47,7 +47,7 @@ const Register = () => {
           
           <input type ="text"name="email" />
           </label>
-          <label className='font'>Phonenumber
+          <label className='font'>Phone-number
           
           
           <input type ="text"name="phone" onChange={ (e) => {setphone(e.target.value)}} />
