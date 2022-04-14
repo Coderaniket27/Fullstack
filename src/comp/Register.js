@@ -34,6 +34,8 @@ const Register = () => {
   return (
     <div className='flexy'>
       <div className='forms'>
+      <div><img style={{marginLeft:"38%"}}src ="log.png"/></div>
+
           <h1 style={{paddingLeft:"39%"}}>Register</h1>
         <div style={{padding:"20px"}}>
         <form onSubmit={handle} >

@@ -13,6 +13,7 @@ const Login = () => {
   return (
     <div className='flexy'>
       <div className='forms'>
+        <div><img style={{marginLeft:"37%"}}src ="log.png"/></div>
           <h1 style={{paddingLeft:"39%"}}>Login</h1>
         <div style={{padding:"20px"}}>
         <form onSubmit={handle} >
@@ -28,7 +29,9 @@ const Login = () => {
           
           <input type ="text" name="password" onChange={ (e) => {setpassword(e.target.value)}}/>
           </label>
-          <button type="submit">Submit</button>
+          <button  onClick={() =>{
+            alert("Login Alert")
+          }}type="submit">Submit</button>
         </form>
         </div>
       </div>
