@@ -8,6 +8,14 @@ const Login = () => {
         e.preventDefault()
         axios.post("http://localhost:3000/login",{name}).then( res =>{
       console.log(res)
+      console.log(res.status)
+      if(res.status==200){
+        alert("login succes")
+      }
+      else{
+        alert("login fail")
+      }
+
     })
     }
   return (
@@ -31,6 +39,7 @@ const Login = () => {
           </label>
           <button  onClick={() =>{
             alert("Login Alert")
+        
           }}type="submit">Submit</button>
         </form>
         </div>
